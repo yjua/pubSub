@@ -1,13 +1,13 @@
 module.exports = {
-  "extends": ["prettier", "plugin:prettier/recommended"],
-  "parser": "babel-eslint",
-  "rules": {
-    "prettier/prettier": "error",
-    "strict": "off",
-    "no-console": "off",
-    "import/no-dynamic-require": "off",
-    "global-require": "off",
-    "require-yield": "off",
+  extends: ['prettier', 'plugin:prettier/recommended'],
+  parser: 'babel-eslint',
+  rules: {
+    'prettier/prettier': 'error',
+    strict: 'off',
+    'no-console': 'off',
+    'import/no-dynamic-require': 'off',
+    'global-require': 'off',
+    'require-yield': 'off'
   },
-  "plugins": ["prettier"],
-};
+  plugins: ['prettier']
+}
