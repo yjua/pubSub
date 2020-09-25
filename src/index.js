@@ -1,6 +1,6 @@
-let isFn = fn => typeof fn === 'function'
-
 let isArray = list => Array.isArray(list)
+
+let isFn = fn => typeof fn === 'function'
 
 function checkFnList(fn) {
   let list = []
